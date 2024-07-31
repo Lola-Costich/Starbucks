@@ -40,3 +40,28 @@
     color: white;
     font-size: 40px;
 }
+/*MAIN*/
+.main{
+    margin-top: 80px;
+    padding: 30px;
+    
+}
+.main__titulo{
+    font-size: 50px;
+    line-height: 1.2;
+}
+.main__contenedor-imgLogo-starbuck-Main{
+    display: none;
+}
+.main__titulo span{
+    color: #006241;
+}
+.main__parrafo{
+    margin-top: 20px;
+    font-weight:bolder;
+}
+.main__contenedor-titulo-parrafo{
+    display: flex;
+    flex-direction: column;
+
+}
