@@ -277,3 +277,122 @@
     margin: 5px;
     
 }
+/*STARBUCKS EN RESOLUCION TABLET*/
+
+@media (min-width:768px){
+    /*HEADER*/
+    .header{
+        background-color:#006241;
+        padding: 15px;
+        
+    }
+    .header__contenedor-usuario-hamburger{
+        display: none;
+    }
+    .header__contenedor-icono-tablet i{
+        font-size: 40px;
+        color:white;  
+    }
+    .header__nav-enlaces{
+        display: block;
+        
+    }
+    .header__enlaces{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    /*MAIN*/
+    .main{
+        display: flex;
+        flex-direction: row;
+        padding: 40px 40px;
+        
+    }
+    .main__contenedor-imgLogo-starbuck-Main{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 15px;
+       
+    }
+    .main__starbuck-Main{
+        width: 80%;
+        
+    }
+    .main__contenedor-titulo-parrafo{
+        width: 50%;
+    }
+    /*SECTION1-GALERIA*/
+
+
+    .section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /*SECTION2-CONTACTANOS*/
+    
+   
+    .section2{
+       align-items: center;
+    }
+    .section2__contenedor-formulario{
+        width: 50%;
+    }
+
+    /*SECTION3-CARDS*/
+
+    .sectio3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+    }
+    .section3__card{
+       width: 40%;
+       margin: 30px;
+
+    }
+    /*FOOTER*/
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        
+    }
+
+
+}
+
+/*STARBUCKS EN RESOLUCION LAPTOP*/
+
+@media(min-width:1024px){
+     /*MAIN*/
+    .main__starbuck-Main{
+        width: 350px;
+        
+    }
+    .main{
+        padding: 35px 100px;
+    }
+    .main__parrafo{
+        font-size: 23px;
+    }
+    /*CONTACTO*/
+    .section2{
+        padding: 10%;
+    }
+    .section2__contenedor-formulario{
+        width: 80%;
+        height: 320px;
+        padding: 20px;
+    }
+
+
+}
