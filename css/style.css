@@ -1,0 +1,42 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+*::selection{
+    background-color: #006241;
+    color: white;
+}
+
+/*STARBUCKS EN RESOLUCION FIRST-MOVILE*/
+
+/*HEADER*/
+.header{
+    background-color: #006241;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 10px 4px 17px 5px rgba(0,0,0,0.75);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+   
+}
+
+.header__imgLogo{
+    width: 50px;
+}
+.header__nav-enlaces,.header__contenedor-usuario {
+    display: none;
+}
+.header__contenedor-usuario-hamburger{
+    color: white;
+    font-size: 40px;
+}
