@@ -65,3 +65,18 @@
     flex-direction: column;
 
 }
+/*SECTION1-GALERIA*/
+.section1{
+    background-color: #006241;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.section1__galeria{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 33px;
+
+}
