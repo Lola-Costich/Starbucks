@@ -80,3 +80,200 @@
     margin-left: 33px;
 
 }
+/*SECTION2-CONTACTANOS*/
+.section2{
+    background-color: #141414;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section2__titulo-contactanos{
+    color: #006241;
+    text-align: center;
+     margin: 25px;
+     font-size: 37px;
+     font-weight:normal ;
+}
+.section2__contenedor-formulario{
+    background-color: #006241;
+    padding: 10px;
+    
+}
+.section2__label{
+    color: white;
+    margin: 5px;
+}
+.section2__button{
+    background-color: #006241;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+}
+
+.section2__contenedor-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+.section2__input-gmail{
+    height: 30px;
+    border-radius: 8px;
+    border-color: white;
+   
+
+}
+.section2__textarea{
+    border-radius: 8px;
+    border-color: white;
+    height: 50px;
+    padding: 5px;
+    
+}
+.section2__input-gmail:focus,
+.section2__textarea:focus{
+    background-color: yellow;
+    
+
+}
+
+    
+.section2__input-gmail::placeholder,
+.section2__textarea::placeholder
+{
+    color: #006241;
+    font-size: 15px;
+    font-weight: 100;
+     
+}
+/*SECCION3-CARDS*/
+.section3__titulo-card1{
+    margin: 10px;
+}
+.section3__parrafo-card{
+    margin: 10px ;
+}
+.sectio3{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section3__card{
+    
+    
+    background-color: #006241;
+    margin-top: 30px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+}
+.section3__img-card{
+    width: 100%;
+}
+.section3__titulo-card1 span{
+    color: yellow;
+}
+.section3__contenedor-circulo-amarillo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+
+
+}
+.section3__button-card-1{
+    padding: 8px;
+    background-color: #006241;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    width: 40%;
+    transition:1s;
+
+}
+
+.section3__button-card-2{
+    padding: 8px;
+    background-color: #006241;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    width: 80%;
+    transition:1s;
+}
+.section3__contenedor-button-card-2{
+    margin: 10px;
+}
+.section3__button-card-3{
+    padding: 8px;
+    background-color: #006241;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    width: 60%;
+    transition:1s;
+}
+
+
+.section3__button-card-1:hover,
+.section3__button-card-2:hover,
+.section3__button-card-3:hover{
+    background-color: rgb(235, 235, 76);
+    
+}
+/*FOOTER*/
+.footer{
+    background-color: black;
+    padding: 20px 15px;
+    margin-top: 10px;
+    
+}
+.footer__contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 5px;
+    font-size: 18px;
+ 
+}
+.footer__enlace-1{
+    color: #006241;
+    text-decoration: none;
+    margin: 5px;
+   
+}
+.footer__contenedor-redes{
+    margin-left: 8px;
+}
+.footer__contenedor-redes i{
+    color:#006241;
+    margin-left: 7px;
+    
+
+}   
+.footer__enlace-3{
+    color: #09aa00;
+    text-decoration: none;
+    margin: 5px;
+    
+}
